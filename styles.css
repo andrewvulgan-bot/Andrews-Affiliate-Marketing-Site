@@ -11,12 +11,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #fff;
+    background-color: #000;
 }
 
 header {
-    background-color: #8b4513; /* Saddle brown for wood theme */
+    background-color: #000; /* Black for dark theme */
     color: #fff;
     padding: 1rem 0;
     position: sticky;
@@ -71,7 +71,7 @@ main {
 .hero {
     text-align: center;
     padding: 4rem 0;
-    background: linear-gradient(-45deg, #8b4513, #a0522d, #daa520, #f4a261);
+    background: linear-gradient(-45deg, #000, #333, #555, #777);
     background-size: 400% 400%;
     animation: gradientShift 8s ease infinite;
     color: #fff;
@@ -120,7 +120,7 @@ main {
     text-align: center;
     margin-bottom: 2rem;
     font-family: 'Montserrat', sans-serif;
-    color: #8b4513;
+    color: #fff;
 }
 
 .blog-grid {
@@ -130,7 +130,7 @@ main {
 }
 
 .blog-card {
-    background-color: #fff;
+    background-color: #333;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -155,22 +155,22 @@ main {
 }
 
 .blog-card h3 a {
-    color: #333;
+    color: #fff;
     text-decoration: none;
 }
 
 .blog-card h3 a:hover {
-    color: #8b4513;
+    color: #ffd700;
 }
 
 .blog-card p {
     padding: 0 1rem 1rem;
-    color: #666;
+    color: #ccc;
 }
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     padding: 2rem 0;
     text-align: center;
@@ -201,7 +201,8 @@ footer ul li a:hover {
 .blog-post {
     max-width: 800px;
     margin: 0 auto;
-    background: #fff;
+    background: #333;
+    color: #fff;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -210,7 +211,7 @@ footer ul li a:hover {
 .blog-post h1 {
     margin-bottom: 1rem;
     font-family: 'Montserrat', sans-serif;
-    color: #8b4513;
+    color: #fff;
 }
 
 .blog-post h2 {
