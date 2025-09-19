@@ -3,91 +3,333 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Woodworking Affiliate Blog</title>
+    <title>Artisan Woodworks | Premium Handcrafted Furniture & Woodworking Insights</title>
+    <meta name="description" content="Discover premium handcrafted wooden furniture and expert woodworking insights. From beginner to professional tutorials, tools, and bespoke furniture pieces.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <nav>
-            <div class="logo"><a href="index.html">Woodwork Deals</a></div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#blogs">Blogs</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <h1>Find the Best Woodworking Tools Available</h1>
-            <p>Earn money through affiliate marketing while exploring the best tools for woodworking enthusiasts. Get expert reviews and exclusive deals.</p>
-            <a href="#blogs" class="cta-button">Explore Blog Posts</a>
-        </section>
-        <section id="blogs" class="blogs-section">
-            <h2>Latest Blog Posts</h2>
+<body class="dark-theme">
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2 class="logo-text">Artisan Woodworks</h2>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="theme-toggle" id="themeToggle">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-gradient"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-subtitle">Premium Handcrafted Excellence</span>
+                <h1 class="hero-title">
+                    Crafting Timeless
+                    <span class="hero-title-accent">Wooden Masterpieces</span>
+                </h1>
+                <p class="hero-description">
+                    Discover bespoke furniture pieces and expert woodworking insights that blend traditional craftsmanship with modern design sensibilities.
+                </p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary">Explore Collection</button>
+                    <button class="btn btn-secondary">Watch Craft Process</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card floating">
+                    <div class="card-glass"></div>
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Handcrafted wooden table" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Collection</span>
+                <h2 class="section-title">Premium Handcrafted Products</h2>
+                <p class="section-description">Each piece is meticulously crafted with attention to detail, using sustainably sourced materials and time-honored techniques.</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card glass-morphism">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Custom Dining Table">
+                        <div class="product-overlay">
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Tables</span>
+                        <h3 class="product-name">Custom Dining Tables</h3>
+                        <p class="product-desc">Handcrafted solid wood dining tables designed to be the centerpiece of your home.</p>
+                        <div class="product-price">Starting at $2,500</div>
+                    </div>
+                </div>
+
+                <div class="product-card glass-morphism">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Kitchen Cabinets">
+                        <div class="product-overlay">
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Storage</span>
+                        <h3 class="product-name">Kitchen Cabinets</h3>
+                        <p class="product-desc">Custom kitchen cabinets that combine functionality with timeless design.</p>
+                        <div class="product-price">Starting at $5,000</div>
+                    </div>
+                </div>
+
+                <div class="product-card glass-morphism">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Custom Shelving">
+                        <div class="product-overlay">
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Shelving</span>
+                        <h3 class="product-name">Custom Shelving</h3>
+                        <p class="product-desc">Bespoke shelving solutions tailored to your space and style preferences.</p>
+                        <div class="product-price">Starting at $800</div>
+                    </div>
+                </div>
+
+                <div class="product-card glass-morphism">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Wooden Chairs">
+                        <div class="product-overlay">
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Seating</span>
+                        <h3 class="product-name">Artisan Chairs</h3>
+                        <p class="product-desc">Ergonomic chairs crafted for both comfort and aesthetic appeal.</p>
+                        <div class="product-price">Starting at $450</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">Knowledge Base</span>
+                <h2 class="section-title">Woodworking Insights & Tutorials</h2>
+                <p class="section-description">Master the craft with our comprehensive guides, tool reviews, and project tutorials.</p>
+            </div>
+
+            <div class="blog-categories">
+                <button class="blog-category-btn active" data-category="all">All Posts</button>
+                <button class="blog-category-btn" data-category="beginner">Beginner</button>
+                <button class="blog-category-btn" data-category="intermediate">Intermediate</button>
+                <button class="blog-category-btn" data-category="professional">Professional</button>
+            </div>
+
             <div class="blog-grid">
-                <article class="blog-card">
-                    <img src="https://source.unsplash.com/featured/?table-saw,woodworking" alt="Table Saw">
-                    <h3><a href="blogs/table-saw-affiliate.html">Top Table Saws for Beginners in 2023</a></h3>
-                    <p>Find the perfect table saw to kickstart your woodworking journey with our affiliate recommendations.</p>
+                <article class="blog-card glass-morphism" data-category="beginner">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1579952363873-27d3bfad9c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Essential Tools">
+                        <span class="blog-level beginner">Beginner</span>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">March 15, 2024</span>
+                        <h3 class="blog-title">Essential Tools for Starting Your Woodworking Journey</h3>
+                        <p class="blog-excerpt">Discover the fundamental tools every beginning woodworker needs to start creating beautiful projects.</p>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
                 </article>
-                <article class="blog-card">
-                    <img src="https://source.unsplash.com/featured/?power-drill,woodworking" alt="Power Drill">
-                    <h3><a href="blogs/power-drills-affiliate.html">Best Power Drills for Home Projects</a></h3>
-                    <p>Read our guide to the top power drills and earn commissions through affiliate links.</p>
+
+                <article class="blog-card glass-morphism" data-category="intermediate">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Advanced Joinery">
+                        <span class="blog-level intermediate">Intermediate</span>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">March 10, 2024</span>
+                        <h3 class="blog-title">Advanced Joinery Techniques for Stronger Connections</h3>
+                        <p class="blog-excerpt">Master complex joinery methods that will elevate your woodworking projects to the next level.</p>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
                 </article>
-                <article class="blog-card">
-                    <img src="https://source.unsplash.com/featured/?sander,woodworking" alt="Sander">
-                    <h3><a href="blogs/sanders-affiliate.html">Ultimate Guide to Sanders</a></h3>
-                    <p>Discover the best sanders for smooth finishes and generate affiliate revenue.</p>
-                </article>
-                <article class="blog-card">
-                    <img src="https://source.unsplash.com/featured/?router,woodworking" alt="Router">
-                    <h3><a href="blogs/routers-affiliate.html">Routers That Every Woodworker Needs</a></h3>
-                    <p>Check out top router picks and affiliate deals to enhance your skills.</p>
-                </article>
-                <article class="blog-card">
-                    <img src="https://source.unsplash.com/featured/?planer,woodworking" alt="Planer">
-                    <h3><a href="blogs/planers-affiliate.html">Planers for Professional Woodworking</a></h3>
-                    <p>Learn about the best planers and promote them through your affiliate network.</p>
-                </article>
-                <article class="blog-card">
-                    <img src="https://source.unsplash.com/featured/?jointer,woodworking" alt="Jointer">
-                    <h3><a href="blogs/jointers-affiliate.html">Jointers to Level Up Your Woodworking</a></h3>
-                    <p>Our affiliate recommendations for the top jointers on the market.</p>
-                </article>
-                <article class="blog-card">
-                    <img src="https://source.unsplash.com/featured/?bandsaw,woodworking" alt="Bandsaw">
-                    <h3><a href="blogs/bandsaws-affiliate.html">Bandsaws for Precision Cuts</a></h3>
-                    <p>Find affordable bandsaws through affiliate marketing links.</p>
-                </article>
-                <article class="blog-card">
-                    <img src="https://source.unsplash.com/featured/?miter-saw,woodworking" alt="Miter Saw">
-                    <h3><a href="blogs/miter-saws-affiliate.html">Angle Cuts with the Best Miter Saws</a></h3>
-                    <p>Earn from promoting top miter saws to your audience.</p>
-                </article>
-                <article class="blog-card">
-                    <img src="https://source.unsplash.com/featured/?drill-press,woodworking" alt="Drill Press">
-                    <h3><a href="blogs/drill-presses-affiliate.html">Drill Presses for Accurate Holes</a></h3>
-                    <p>Discover drill presses that make a difference in your work.</p>
-                </article>
-                <article class="blog-card">
-                    <img src="https://source.unsplash.com/featured/?chisels,woodworking" alt="Chisels">
-                    <h3><a href="blogs/chisels-affiliate.html">Hand Chisels for Detailed Work</a></h3>
-                    <p>Essential chisels reviewed with affiliate links for commissions.</p>
+
+                <article class="blog-card glass-morphism" data-category="professional">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Custom Furniture Design">
+                        <span class="blog-level professional">Professional</span>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">March 5, 2024</span>
+                        <h3 class="blog-title">Custom Furniture Design: From Concept to Creation</h3>
+                        <p class="blog-excerpt">Learn the professional approach to designing and creating bespoke furniture pieces for clients.</p>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
                 </article>
             </div>
-        </section>
-    </main>
-    <footer id="contact">
-        <p>&copy; 2023 Woodwork Deals Affiliate Blog. Earn through woodworking tool recommendations.</p>
-        <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#" target="_blank">Affiliate Disclaimer</a></li>
-        </ul>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-subtitle">Our Story</span>
+                    <h2 class="section-title">Craftsmanship Meets Innovation</h2>
+                    <p class="about-description">
+                        With over a decade of experience in fine woodworking, we combine traditional craftsmanship with modern design principles to create pieces that stand the test of time. Each project is approached with meticulous attention to detail and a commitment to sustainability.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Custom Pieces</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Sustainable Wood</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-card glass-morphism">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Craftsman at work">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">Get in Touch</span>
+                <h2 class="section-title">Ready to Start Your Project?</h2>
+                <p class="section-description">Let's discuss your vision and create something extraordinary together.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item glass-morphism">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>hello@artisanwoodworks.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-morphism">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-morphism">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Portland, Oregon</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form glass-morphism">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="project" name="project" required>
+                            <option value="">Select Project Type</option>
+                            <option value="custom-furniture">Custom Furniture</option>
+                            <option value="kitchen-cabinets">Kitchen Cabinets</option>
+                            <option value="built-ins">Built-in Storage</option>
+                            <option value="restoration">Furniture Restoration</option>
+                            <option value="consultation">Design Consultation</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Artisan Woodworks</h3>
+                    <p>Crafting timeless wooden masterpieces with passion and precision.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Custom Furniture</a></li>
+                            <li><a href="#">Kitchen Cabinets</a></li>
+                            <li><a href="#">Built-in Storage</a></li>
+                            <li><a href="#">Furniture Restoration</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Beginner Guides</a></li>
+                            <li><a href="#">Tool Reviews</a></li>
+                            <li><a href="#">Project Tutorials</a></li>
+                            <li><a href="#">Wood Selection Guide</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Artisan Woodworks. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="YouTube">📺</a>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
