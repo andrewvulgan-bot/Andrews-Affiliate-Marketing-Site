@@ -64,8 +64,8 @@ body.dark-theme {
   --color-bg-tertiary: #2a2a2d;
   --color-surface: rgba(255, 255, 255, 0.05);
   --color-surface-hover: rgba(255, 255, 255, 0.08);
-  --color-primary: #6366f1;
-  --color-primary-hover: #5855eb;
+  --color-primary: #1e40af;
+  --color-primary-hover: #1d4ed8;
   --color-accent: #f59e0b;
   --color-text-primary: #ffffff;
   --color-text-secondary: #d1d5db;
@@ -74,10 +74,10 @@ body.dark-theme {
   --color-border-hover: rgba(255, 255, 255, 0.2);
   
   /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-primary: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
   --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
   --gradient-accent: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  --gradient-hero: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  --gradient-hero: linear-gradient(135deg, rgba(30, 64, 175, 0.1) 0%, rgba(30, 58, 138, 0.1) 100%);
   
   background: var(--color-bg);
   color: var(--color-text-primary);
@@ -90,8 +90,8 @@ body.light-theme {
   --color-bg-tertiary: #f1f5f9;
   --color-surface: rgba(255, 255, 255, 0.7);
   --color-surface-hover: rgba(255, 255, 255, 0.9);
-  --color-primary: #6366f1;
-  --color-primary-hover: #5855eb;
+  --color-primary: #1e40af;
+  --color-primary-hover: #1d4ed8;
   --color-accent: #f59e0b;
   --color-text-primary: #1f2937;
   --color-text-secondary: #4b5563;
@@ -100,10 +100,10 @@ body.light-theme {
   --color-border-hover: rgba(0, 0, 0, 0.2);
   
   /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-primary: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
   --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
   --gradient-accent: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-  --gradient-hero: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+  --gradient-hero: linear-gradient(135deg, rgba(30, 64, 175, 0.05) 0%, rgba(30, 58, 138, 0.05) 100%);
   
   background: var(--color-bg);
   color: var(--color-text-primary);
